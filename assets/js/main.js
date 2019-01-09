@@ -16,10 +16,10 @@ $(document).ready(function() {
     $(document).scroll(function() {
         if ($(document).scrollTop() > 20 && !$('#top-nav.navbar').hasClass('navbar-is-scrolling')) {
             $('#top-nav.navbar').addClass('navbar-is-scrolling');
-            $(".navbar-brand img").attr("src", "../assets/images/logowhite.png");
+            $(".navbar-brand img").attr("src", "assets/images/logowhite.png");
         } else if ($(document).scrollTop() <= 20 && $('#top-nav.navbar').hasClass('navbar-is-scrolling')) {
             $('#top-nav.navbar').removeClass('navbar-is-scrolling');
-            $(".navbar-brand img").attr("src", "../assets/images/logo.png");
+            $(".navbar-brand img").attr("src", "assets/images/logo.png");
         }
     }).scroll();
 
