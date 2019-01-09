@@ -838,14 +838,16 @@ div#team {}
 
 div#pricing {
     margin-top: 0px;
-    padding-top: 170px;
+    padding-top: 100px;
     padding-bottom: unset !important;
     position: relative;
     overflow: hidden;
 }
 
-#pricing .slick-arrow {
-    top: 200px !important;
+.lazy .slick-arrow {
+    position: absolute;
+    top: 100px !important;
+    z-index: 5;
 }
 
 div#pricing:before,
@@ -1730,4 +1732,23 @@ div#download:after {
 #pricing .product-cigarett {
     text-align: justify;
     color: #fff !important;
+}
+
+#pricing-title {
+    padding-bottom: 100px
+}
+
+#pricing .team-members.slick-slider {
+    display: block;
+    width: 50%;
+    margin: -100px auto 0 auto;
+    direction: ltr;
+}
+
+.lazy .slick-next {
+    right: 30px;
+}
+
+.lazy .slick-prev {
+    left: 30px;
 }
