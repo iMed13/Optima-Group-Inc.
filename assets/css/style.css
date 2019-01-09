@@ -1787,3 +1787,8 @@ div#download:after {
 .active_slider {
     display: flex !important;
 }
+
+.navbar-brand img {
+    transition: all 0.5s;
+    width: 300px;
+}

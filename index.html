@@ -82,6 +82,13 @@
             height: 100%;
         }
         
+        @media (max-width: 1200px) {
+            .navbar-brand img {
+                transition: all 0.5s;
+                width: 200px
+            }
+        }
+        
         @media (max-width: 991px) {
             div#header:before {
                 top: 200px !important;
@@ -93,6 +100,10 @@
             div#header:before {
                 top: 200px !important;
                 height: 300px !important;
+            }
+            .navbar-brand img {
+                transition: all 0.5s;
+                width: 200px
             }
         }
     </style>
@@ -119,7 +130,9 @@
     <!-- Top navigation bar -->
     <nav id="top-nav" class="navbar fixed-top navbar-expand-lg navbar-dark" data-aos="fade-down">
         <div class="container">
-            <a class="navbar-brand" href="#header">LOGO</a>
+            <a class="navbar-brand" href="#header">
+                <img src="assets/images/logo.png" alt="logo">
+            </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topnavbar" aria-controls="topnavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -544,7 +557,11 @@
     <!-- Footer section -->
     <div id="footer" class="container-fluid" data-aos="fade-up">
         <div class="container">
-            <p class="section-title" style="text-align: center">Optima Group Inc.</p>
+            <p class="section-title" style="text-align: center">
+                <a class="navbar-brand" href="#header">
+                    <img src="assets/images/logo.png" alt="logo">
+                </a>
+            </p>
             <div class="footer-social">
                 <a href="#" target="_blank" class="material-ripple"><i class="fab fa-facebook-f"></i></a>
                 <a href="#" target="_blank" class="material-ripple"><i class="fab fa-twitter"></i></a>
