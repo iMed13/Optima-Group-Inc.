@@ -84,14 +84,14 @@
         @media (max-width: 991px) {
             div#header:before {
                 top: 200px !important;
-                height: 600px !important;
+                height: 400px !important;
             }
         }
         
         @media (max-width: 500px) {
             div#header:before {
                 top: 200px !important;
-                height: 800px !important;
+                height: 300px !important;
             }
         }
     </style>
@@ -602,12 +602,13 @@
             $('.team-members').slick({
                 rtl: false, // True if design is right to left
                 accessibility: false,
+                autoplay: true,
+                autoplaySpeed: 5000,
                 infinite: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,
                 dots: true,
                 speed: 1000,
-                autoplay: false,
                 focusOnSelect: false,
                 touchMove: false,
                 cssEase: 'ease-in-out',
