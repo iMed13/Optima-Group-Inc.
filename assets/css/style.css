@@ -367,7 +367,7 @@ ul.slick-dots li.slick-active {
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: linear-gradient(45deg, #5F72BD 0%, #9B23EA 100%);
+    background-image: linear-gradient(45deg, #0031B8 0%, rgb(107, 55, 141) 100%);
     z-index: 13000;
     height: 100%;
     opacity: 1;
@@ -468,7 +468,7 @@ ul.slick-dots li.slick-active {
 #top-nav.navbar.navbar-is-scrolling {
     padding-top: 0px;
     padding-bottom: 0px;
-    background-image: linear-gradient(45deg, #5F72BD 0%, #9B23EA 100%);
+    background-image: linear-gradient(45deg, #0031B8 0%, rgb(39, 3, 63) 100%);
     box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
 }
 
@@ -501,7 +501,7 @@ div#header:before {
     left: -50vw;
     height: 350px;
     /* background-image: linear-gradient(45deg, #5F72BD 0%, #9B23EA 100%); */
-    background-image: linear-gradient(45deg, rgba(155, 35, 234, 0.9) 0%, rgba(0, 0, 0, 0.9) 100%);
+    background-image: linear-gradient(45deg, #0031B8 0%, rgba(57, 9, 80, 0.9) 100%);
     transform: rotateZ(6deg);
 }
 
@@ -837,7 +837,7 @@ div#team {}
 
 div#pricing {
     margin-top: 0px;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: unset !important;
     position: relative;
     overflow: hidden;
@@ -857,7 +857,7 @@ div#pricing:after {
     right: -50vw;
     left: -50vw;
     height: 400px;
-    background-image: linear-gradient(45deg, #5F72BD 0%, #9B23EA 100%);
+    background-image: linear-gradient(45deg, #0031B8 0%, rgb(100, 0, 167) 100%);
     transform: rotateZ(6deg);
     z-index: -1;
 }
@@ -1118,7 +1118,7 @@ div#contact .row {
 
 #contact .section-title {
     padding-top: 50px;
-    color: #9B23EA !important;
+    color: #0031B8 !important;
 }
 
 #contact .slick-dots {
@@ -1269,7 +1269,7 @@ div#download:after {
 /* 16.Footer */
 
 #footer {
-    background-image: linear-gradient(45deg, #5F72BD 0%, #9B23EA 100%);
+    background-image: linear-gradient(45deg, #0031B8 0%, rgb(72, 16, 109) 100%);
     margin-top: 100px !important;
     padding-top: 50px
 }
@@ -1460,7 +1460,7 @@ div#download:after {
         height: 600px !important;
     }
     #top-nav.navbar.collapsed {
-        background-image: linear-gradient(45deg, #5F72BD 0%, #9B23EA 100%);
+        background-image: linear-gradient(45deg, #0031B8 0%, rgb(37, 13, 54) 100%);
         box-shadow: 0px 5px 23px 0px rgba(0, 0, 0, 0.1);
     }
     #top-nav.navbar.navbar-is-scrolling #btn-download {
@@ -1671,7 +1671,7 @@ div#download:after {
 /* width */
 
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 9px;
 }
 
 
@@ -1686,7 +1686,7 @@ div#download:after {
 
  ::-webkit-scrollbar-thumb {
     border-radius: 2px;
-    background-image: linear-gradient(45deg, #5F72BD 0%, #9B23EA 100%);
+    background-image: linear-gradient(45deg, #0031B8 0%, rgb(34, 1, 56) 100%);
 }
 
 
@@ -1709,7 +1709,7 @@ div#download:after {
 
 .product-water .section-title {
     text-align: center;
-    color: #9B23EA !important;
+    color: #0031B8 !important;
 }
 
 .product-water .corp-inc {
@@ -1724,7 +1724,7 @@ div#download:after {
 
 #screens .section-title,
 #screens .section-text {
-    color: #7110b1 !important;
+    color: #0031B8 !important;
 }
 
 #pricing .product-cigarett {
@@ -1749,4 +1749,8 @@ div#download:after {
 
 .lazy .slick-prev {
     left: 30px;
+}
+
+#team .section-title {
+    color: #0031B8;
 }
