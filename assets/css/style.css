@@ -1198,7 +1198,6 @@ div#contact .row {
 
 #contact .address-box>span i {
     color: #942BE5;
-    transform: rotateY(180deg);
     margin-right: 4px;
     font-size: 14px;
 }
