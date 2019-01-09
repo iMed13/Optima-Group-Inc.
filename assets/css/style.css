@@ -1754,3 +1754,36 @@ div#download:after {
 #team .section-title {
     color: #0031B8;
 }
+
+.product-overlay-slider {
+    width: 100% !important;
+    height: 100vh !important;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+.product-overlay-slider .next {
+    position: absolute;
+    top: 50%;
+    right: 50px;
+}
+
+.product-overlay-slider .prev {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+}
+
+.product-overlay-slider img {
+    height: 500px;
+}
+
+.active_slider {
+    display: flex !important;
+}
