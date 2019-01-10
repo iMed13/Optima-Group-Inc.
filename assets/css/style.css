@@ -1827,6 +1827,10 @@ div#download:after {
     margin-left: -50px;
 }
 
+.submenu li a {
+    border-radius: 4px;
+}
+
 #top-nav.navbar .navbar-nav .nav-item a:hover {
     border: 1px
 }
