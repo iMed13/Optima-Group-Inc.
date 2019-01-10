@@ -439,7 +439,9 @@ ul.slick-dots li.slick-active {
 }
 
 #top-nav.navbar .navbar-nav .nav-item a {
+    border: 2px solid transparent;
     padding: 0;
+    padding: 0px 10px;
     margin: 0px 10px;
     color: #FFF;
     position: relative;
@@ -455,7 +457,7 @@ ul.slick-dots li.slick-active {
     height: 4px;
     border-radius: 100%;
     background-color: transparent;
-    top: 10px;
+    top: 50%;
     left: -8px;
     transition: all 0.1s linear 0s;
 }
@@ -1816,8 +1818,13 @@ div#download:after {
 }
 
 .submenu li {
+    width: 100%;
     list-style-type: none;
     margin-left: -50px;
+}
+
+#top-nav.navbar .navbar-nav .nav-item a:hover {
+    border: 1px
 }
 
 @media (max-width: 991px) {
@@ -1832,6 +1839,7 @@ div#download:after {
         padding-left: 20px;
     }
     .submenu li {
+        width: 100%;
         margin-left: unset !important;
     }
     .submenuparent a {
@@ -1843,4 +1851,9 @@ div#download:after {
         font-size: 14px;
         display: block !important;
     }
+}
+
+#top-nav.navbar .navbar-nav .nav-item a:hover {
+    border-radius: 8px;
+    border: 2px solid #fff;
 }
