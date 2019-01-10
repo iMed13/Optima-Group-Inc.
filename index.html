@@ -107,6 +107,10 @@
                 width: 200px
             }
         }
+        
+        .submenucolor {
+            color: #0031B8;
+        }
     </style>
 </head>
 
@@ -132,7 +136,7 @@
     <nav id="top-nav" class="navbar fixed-top navbar-expand-lg navbar-dark" data-aos="fade-down">
         <div class="container">
             <a class="navbar-brand" href="#header">
-                <img src="assets/images/logo.png" alt="logo">
+                <img src="assets/images/logowhite.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#topnavbar" aria-controls="topnavbar" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -140,17 +144,21 @@
             <div class="collapse navbar-collapse" id="topnavbar">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About Corporation</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#team">Senior Team</a>
+                        <a class="nav-link" href="#team">Team</a>
                     </li>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="#pricing">Product & Service</a>
+                    <li class="nav-item submenuparent">
+                        <a class="nav-link" href="#">Product <i class="fas fa-angle-double-down" style="display:none"></i></a>
+                        <ul class="submenu">
+                            <li><a href="#Cigarette">Cigarette</a></li>
+                            <li><a href="#water">Water</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#screens">News & Information</a>
+                        <a class="nav-link" href="#screens">News</a>
                     </li>
 
                     <li class="nav-item">
@@ -372,14 +380,14 @@
             <h2 id="pricing-title" class="section-title" data-aos="fade-up">PRODUCT & SERVICE</h2>
             <div id="quotes" class="container-fluid">
                 <div class="container">
-                    <h4 class="section-title" data-aos="fade-up">Cigarette</h4>
+                    <h4 class="section-title" data-aos="fade-up" id="Cigarette">Cigarette</h4>
                     <div class="row justify-content-md-center" data-aos="zoom-in">
                         <div class="col-lg-12">
 
                             <div class="product-cigarett">When it comes to cigarette production, “made in USA” product means a lot. We are proud of our established relationship with the US Tobacco producers and take great pride in using their fine tobacco and huge experience to enhance
                                 the quality of our blends. We are against of under age smoking. We support all programs and legislation, that will help in decreasing the number of underage smokers.
 
-                                <div class="row cigaret-image">
+                                <div class="row cigaret-image" style="margin-top:100px !important">
                                     <div class="col-lg-6">
                                         <img src="assets/images/cig1.jpg" alt="">
                                     </div>
@@ -399,7 +407,7 @@
                                 <div class="prod_image"><img data-lazy="assets/images/cig5.jpg" alt=""></div>
                             </div>
 
-                            <section class="product-water" data-aos="fade-up">
+                            <section class="product-water" data-aos="fade-up" id="water">
                                 <h4 class="section-title">Water</h4>
                                 <p class="news-slug">(New Project – Production and Worldwide Distribution of Spring Water)
                                 </p>
@@ -560,7 +568,7 @@
         <div class="container">
             <p class="section-title" style="text-align: center">
                 <a class="navbar-brand" href="#header">
-                    <img src="assets/images/logo.png" alt="logo">
+                    <img src="assets/images/logowhite.png" alt="logo">
                 </a>
             </p>
             <div class="footer-social">
@@ -665,7 +673,7 @@
                 rtl: false, // True if design is right to left
                 accessibility: false,
                 autoplay: true,
-                autoplaySpeed: 5000,
+                autoplaySpeed: 10000,
                 infinite: true,
                 slidesToShow: 1,
                 slidesToScroll: 1,

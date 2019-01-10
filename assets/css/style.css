@@ -441,10 +441,10 @@ ul.slick-dots li.slick-active {
 #top-nav.navbar .navbar-nav .nav-item a {
     padding: 0;
     margin: 0px 10px;
-    color: #FFF !important;
+    color: #FFF;
     position: relative;
     text-transform: capitalize !important;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 #top-nav.navbar .navbar-nav .nav-item a:before {
@@ -501,7 +501,7 @@ div#header:before {
     left: -50vw;
     height: 350px;
     /* background-image: linear-gradient(45deg, #5F72BD 0%, #9B23EA 100%); */
-    background-image: linear-gradient(45deg, #0031B8 0%, rgba(57, 9, 80, 0.9) 100%);
+    background-image: linear-gradient(45deg, #0031B8 0%, rgba(57, 9, 80, 0.2) 100%);
     transform: rotateZ(6deg);
 }
 
@@ -1697,6 +1697,7 @@ div#download:after {
 }
 
 .product-water {
+    border: 1px solid;
     margin-top: 50px;
     background: #fff;
     padding: 50px 0;
@@ -1733,6 +1734,7 @@ div#download:after {
 }
 
 #pricing-title {
+    color: #fff !important;
     padding-bottom: 100px
 }
 
@@ -1791,4 +1793,54 @@ div#download:after {
 .navbar-brand img {
     transition: all 0.5s;
     width: 300px;
+}
+
+.submenuparent {
+    position: relative
+}
+
+.submenuparent:hover .submenu {
+    display: block;
+    transition: all 0.5s;
+}
+
+.submenu {
+    display: none;
+    padding-top: 20px;
+    height: 100px;
+    width: 100px;
+    list-style-type: none;
+    position: absolute;
+    bottom: -100px;
+    left: 10px;
+}
+
+.submenu li {
+    list-style-type: none;
+    margin-left: -50px;
+}
+
+@media (max-width: 991px) {
+    .submenu {
+        padding-top: unset !important;
+        height: unset !important;
+        width: unset !important;
+        position: unset !important;
+    }
+    .submenu li a {
+        color: #fff;
+        padding-left: 20px;
+    }
+    .submenu li {
+        margin-left: unset !important;
+    }
+    .submenuparent a {
+        align-items: center;
+        display: flex;
+    }
+    .submenuparent .fas {
+        padding-left: 20px;
+        font-size: 14px;
+        display: block !important;
+    }
 }
