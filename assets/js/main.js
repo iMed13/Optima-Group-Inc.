@@ -16,10 +16,10 @@ $(document).ready(function() {
     $(document).scroll(function() {
         if ($(document).scrollTop() > 20 && !$('#top-nav.navbar').hasClass('navbar-is-scrolling')) {
             $('#top-nav.navbar').addClass('navbar-is-scrolling');
-            $(".submenu").addClass("submenuactive");
+            $(".submenu li a").addClass("submenuactive");
         } else if ($(document).scrollTop() <= 20 && $('#top-nav.navbar').hasClass('navbar-is-scrolling')) {
             $('#top-nav.navbar').removeClass('navbar-is-scrolling');
-            $(".submenu").removeClass("submenuactive");
+            $(".submenu li a").removeClass("submenuactive");
         }
     }).scroll();
 

@@ -1822,7 +1822,7 @@ div#download:after {
 }
 
 .submenu li {
-    width: 100%;
+    width: 100% !important;
     list-style-type: none;
     margin-left: -50px;
 }
