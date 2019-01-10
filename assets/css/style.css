@@ -1860,3 +1860,27 @@ div#download:after {
         display: block !important;
     }
 }
+
+div#contact {
+    position: relative;
+    overflow: hidden;
+}
+
+div#contact:before {
+    content: '';
+    position: absolute;
+    bottom: 150px;
+    z-index: 0;
+    right: -50vw;
+    left: -50vw;
+    height: 150px;
+    /* background-image: linear-gradient(45deg, #5F72BD 0%, #9B23EA 100%); */
+    background-image: linear-gradient(45deg, #0031B8 0%, rgb(72, 16, 109) 100%);
+    transform: rotateZ(-10deg);
+    opacity: 0.5;
+}
+
+.prod_image {
+    display: flex !important;
+    justify-content: center
+}
