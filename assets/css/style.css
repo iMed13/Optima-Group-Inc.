@@ -439,7 +439,6 @@ ul.slick-dots li.slick-active {
 }
 
 #top-nav.navbar .navbar-nav .nav-item a {
-    border: 2px solid transparent;
     padding: 0;
     padding: 0px 10px;
     margin: 0px 10px;
@@ -453,18 +452,18 @@ ul.slick-dots li.slick-active {
     content: '';
     position: absolute;
     display: inline-block;
-    width: 4px;
-    height: 4px;
-    border-radius: 100%;
+    width: 100%;
+    height: 100%;
     background-color: transparent;
-    top: 50%;
-    left: -8px;
+    top: 0;
+    left: 0;
     transition: all 0.1s linear 0s;
 }
 
 #top-nav.navbar .navbar-nav .nav-item a:hover:before,
 #top-nav.navbar .navbar-nav .nav-item a.active:before {
-    background-color: #fafafa;
+    border-radius: 5px;
+    border: 2px solid #fff;
 }
 
 #top-nav.navbar.navbar-is-scrolling {
@@ -1851,9 +1850,4 @@ div#download:after {
         font-size: 14px;
         display: block !important;
     }
-}
-
-#top-nav.navbar .navbar-nav .nav-item a:hover {
-    border-radius: 8px;
-    border: 2px solid #fff;
 }
